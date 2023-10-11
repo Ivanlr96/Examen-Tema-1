@@ -1,11 +1,14 @@
-* {
+/* Aplicamos la fuente a toda la página, PD: el botón no tiene esa fuente y podría cambiarla, pero no es necesario */
+*{
     font-family: 'Courier New', Courier, monospace;
 }
 
+/*Alineamos el texto del body */
 body {
     text-align: center;
 }
 
+/* Agregamos los estilos al botón, le quitamos el borde y le ponemos el puntero */
 #btn {
     font-size: 1em;
     background-color: blue;
@@ -16,17 +19,20 @@ body {
     margin-top: 1%;
 
 }
+/* Aumentamos el grueso de la letra en el label */
 
 label {
     font-weight: 700;
     margin-top: 1%;
 }
+/* Modificamos las dimensiones del imput para que aparezcan los place holder correctamente */
 input {
     padding: 0.5rem;
     width: 200px;
     border-radius: 1,3rem;
 }
 
+/* Centramos los elementos del interior del contenedor y los situamos correctamente */
 .contenedor {
     display: flex;
     flex-direction: column;
